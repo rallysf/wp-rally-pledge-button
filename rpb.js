@@ -22,7 +22,7 @@
 			return {
 				longname : 'Rally pledge button plugin',
 				author : 'Tommy Devol & Jinjutha Hancock',
-				authorurl : 'http://rally.org/corp/careers',
+				authorurl : 'https://rally.org',
 				infourl : '',
 				version : "1.0"
 			};
