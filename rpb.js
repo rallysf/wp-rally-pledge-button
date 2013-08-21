@@ -10,7 +10,7 @@
 			});
 
       ed.addCommand("insertrally", function() {
-        var rallyPage = prompt("What is the page of the rally", "http://rally.org/jinjutha");
+        var rallyPage = prompt("What is the address of the rally?", "http://rally.org/buzkashiboys");
         if (rallyPage !== null) {
           shortcode = "[rally-pledge page=\""+rallyPage+"\"]";
           ed.execCommand('mceInsertContent', 0, shortcode);
@@ -22,7 +22,7 @@
 			return {
 				longname : 'Rally pledge button plugin',
 				author : 'Tommy Devol & Jinjutha Hancock',
-				authorurl : 'http://nickrowewebdesign.com',
+				authorurl : 'http://rally.org/corp/careers',
 				infourl : '',
 				version : "1.0"
 			};
