@@ -163,8 +163,7 @@ class RallyPledgeButton {
       CURLOPT_AUTOREFERER    => true,
       CURLOPT_CONNECTTIMEOUT => 5,
       CURLOPT_TIMEOUT        => 120,
-      CURLOPT_MAXREDIRS      => 10,
-      CURLOPT_SSL_VERIFYPEER => false
+      CURLOPT_MAXREDIRS      => 10
     );
 
     curl_setopt_array( $ch, $options );
