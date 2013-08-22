@@ -151,7 +151,7 @@ class RallyPledgeButton {
    */
   function get_page($url){
 
-    $pledge_embed_code_url = "https://www.rally.org/widgets/pledge_embed_code?url=" . urlencode($url);
+    $pledge_embed_code_url = "https://rally.org/widgets/pledge_embed_code?url=" . urlencode($url);
 
     $ch = curl_init();
 
